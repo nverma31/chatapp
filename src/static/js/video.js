@@ -11,7 +11,7 @@ function getRoom() {
 
 // Retrieve the absolute room URL.
 function getRoomURL() {
-  return location.protocol + "//" + location.host + (location.path || "") + "?room=" + getRoom();
+  return "https://kind-galileo-4ab147.netlify.com/testRoom";
 }
 
 // Enable video on the page.
